@@ -1,0 +1,170 @@
+@media (min-width: 601px) and (max-width: 1200px) {
+    /* your code should be written here  */
+    .logo-contaner img {
+        max-width:20vw;
+        max-height: 12vh;
+    }
+    .nav-header a{
+        font-size: 17px;}
+    i{
+        font-size:17px;
+    }
+    #search{
+        padding-right:10px;
+    }
+
+/* Hero section */
+.hero{
+    min-height: 50vh;
+}
+.hero .hero-info {
+    width:70%;
+    line-height: 3rem;
+    }
+.hero .hero-info .hero-info-heading{
+    font-size: 3rem;
+    }
+    .hero-info-heading-2{
+        font-size: 2rem;
+    }
+    .hero .hero-info .hero-info-subheading{
+        font-size: 1rem;
+    }
+    .hero .hero-img{
+        width:70%;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* feature section */
+
+    .feature-title h2 ,.hilghting-title h2{
+        font-size: 2rem;
+    }
+    .feature-content{
+        width: 40%;
+    }
+    .feature-content-description{
+        font-size: 1.2rem;
+    }
+
+/* hilghting section */
+.hilghting-content{
+    width: 15%;
+    margin: 1rem;
+}
+.hilghting-content p{
+    font-size:13px;
+}
+
+/* footer section */
+ 
+.help-links ul li a ,.media-links ul li a{
+    font-size:12px;
+    
+}
+.help-links ul li{
+    padding: 0.5rem;
+}
+.media-links ul li{
+    padding: 0.2rem;
+}
+.copyright{
+    font-size:12px;
+}
+}
+@media (max-width: 600px) {
+    /* your code should be written here  */
+    .logo-contaner img {
+        max-width: 18vw;
+        max-height: 10vh;
+    }
+    .nav-header{
+        max-width: 50vw;
+        min-width: 20vw;
+        
+    }
+    .nav-header a{
+        font-size: 12px;}
+    i{
+        font-size:12px;
+    }
+    #search{
+        padding-right: 5px;
+    }
+
+
+
+/* Hero section */
+    .hero{
+        min-height: 40vh;
+        flex-direction: column;
+        flex-direction: column-reverse;}
+    .hero .hero-info {
+        width:70%;
+        line-height: 2.5rem;
+        }
+    .hero .hero-info .hero-info-heading{
+        font-size: 2rem;
+        }
+        .hero-info-heading-2{
+            font-size: 1.3rem;
+        }
+        .hero .hero-info .hero-info-subheading{
+            font-size: .9rem;
+        }
+        .hero .hero-img{
+            width:70%;
+            margin-right: 2rem;
+            margin-bottom:1rem;
+        }
+
+
+         /* feature section */ 
+
+         .feature-title h2 ,.hilghting-title h2{
+            font-size: 1.2rem;
+        }
+        .feature-content{
+            width: 70%;
+        }
+        .feature-content-description{
+            font-size: 1rem;
+        }
+
+        
+        /* hilghting section */
+.hilghting-content{
+    width: 15%;
+    height: 50px;
+    margin:0.5rem;
+}
+.hilghting-content p{
+    font-size:8px;
+}
+
+/* footer section */
+.footer-contaner{
+   flex-direction: column;
+}
+.help-links ul li a ,.media-links ul li a{
+    font-size:12px;
+    
+}
+.help-links ul li{
+    padding: 0.5rem;
+}
+.media-links ul li{
+    padding: 0.2rem;
+}
+.copyright{
+    font-size:12px;
+}
+
+
+}
+
+
+
+ @media (min-width: 1800px) {} 
+    /* your code should be written here */
