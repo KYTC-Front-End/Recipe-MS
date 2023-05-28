@@ -203,3 +203,36 @@ i{
 .copyright{
     font-size: 15px;
 }
+
+/*  Recipes page  */
+
+/* Filter section */
+
+.filter-contaner{
+    width: 100%;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   margin: 1rem auto;
+} 
+.filter-catigury{
+   width: 18%;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   background-color: #F1F1F1;
+   margin:1rem;
+   border-radius: 10px;
+}
+.filter-content{
+   width: 100%;
+}
+.filter-content h3{
+   font-size: 17px;
+   text-align: center;
+}
+.filter-catigury img{
+    max-width: 4rem;
+    min-width: 3rem;
+   border-radius: 10px;
+}
