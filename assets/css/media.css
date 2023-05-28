@@ -57,6 +57,14 @@
     font-size:13px;
 }
 
+/* filter section */
+.filter-catigury{
+    margin:0.5rem;
+ }
+ .filter-content h3{
+    font-size: 13px;
+ }
+
 /* footer section */
  
 .help-links ul li a ,.media-links ul li a{
@@ -143,6 +151,17 @@
     font-size:8px;
 }
 
+
+/* filter section */
+.filter-contaner{
+    flex-wrap: wrap;
+}
+.filter-catigury{
+    width: 40%;
+}
+.filter-content h3{
+    font-size:13px;
+}
 /* footer section */
 .footer-contaner{
    flex-direction: column;
