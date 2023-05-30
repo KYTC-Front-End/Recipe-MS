@@ -65,8 +65,6 @@
     font-size: 13px;
  }
 
- /* submit section */
-
 /* submit section */
 
 .submit-container{
@@ -244,11 +242,20 @@
 
 
 }
-
-
-
- @media (min-width: 1800px) {} 
-    /* your code should be written here */
+ @media (min-width: 1800px) {
+    @media (min-width:1400px){
+        .submit-container #title ,.submit-container .Ingredients ,.submit-container .Instructions{
+            width: 80%;
+        }
+        .submit-container #title{
+            height: 5rem;
+        }
+        .submit-container .Ingredients{
+            height: 20rem;
+        }
+        
+    }
+ } 
 
 
    
