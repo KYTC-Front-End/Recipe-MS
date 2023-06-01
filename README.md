@@ -24,3 +24,14 @@ Responsive website with all screens</p>
   <li><b>Front-End Development :</b> phase focused on implementing the user interface using HTML, CSS ..The design was translated into code, ensuring responsiveness and compatibility across different devices and screen sizes.</li>
   <li><b>Deployment :</b> The website was deployed to a github live site </li>
 </ol>
+
+## Technologies used : 
+<ol>
+  <li>Figma</li>
+  <li> Html5</li>
+  <li> Css</li>
+  <li>Responsive secreens</li>
+  <li>Git Bash</li>
+  <li>Github</li>
+  
+      
