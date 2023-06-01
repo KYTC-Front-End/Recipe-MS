@@ -43,6 +43,10 @@ i{
     color: #000;
     
 }
+a:hover{
+    color: #79A755;
+    transition: 0.5s;
+}
 .nav-header a{
     font-size:22px;
 }
@@ -132,6 +136,10 @@ i{
 .feature-content img{
     width: 100%;
     border-radius:25px;
+}
+.feature-content img:hover{
+    width: 102%;
+    transition: all 0.5s;
 }
 .feature-content-description{
     margin-top: 0px;
