@@ -2,10 +2,10 @@
 
 ## [Figma Link](https://www.figma.com/file/zMZ54jq4labBHXoXglY2wv/Recipes-website?type=design&node-id=0%3A1&t=GUQnjSHMQBjoWWoW-1)
 ## Team Member :
-<ul>
-  <li>Mona Khader</li>
-  <li>Sahar Al-yazji</li>
-  </ul>
+
+  Mona Khader
+  Sahar Al-yazji
+  
   
   ## Purpose :
   <p>The purpose of our website is to offer a platform to provide healthy recipes for people who maintain their health and people who make different diets.
@@ -26,12 +26,12 @@ Responsive website with all screens</p>
 </ol>
 
 ## Technologies used : 
-<ol>
-  <li>Figma</li>
-  <li> Html5</li>
-  <li> Css</li>
-  <li>Responsive secreens</li>
-  <li>Git Bash</li>
-  <li>Github</li>
+
+  - Figma
+  - Html5
+  - Css 
+  - Responsive secreens
+  - Git Bash
+  - Github
   
       
