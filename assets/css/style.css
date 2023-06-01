@@ -344,3 +344,249 @@ input[type="submit"]:active, label:active{
     }
     
 }
+/* Details page */
+
+body{
+    max-width: 100vw;
+}
+
+
+.Recipes-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/hero2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    position: relative;
+   
+}
+.hero-container .hero-info{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+gap: 30px;
+padding: 30px;
+}
+.hero-container .hero-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-icon{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-icon i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   
+}
+
+.hero-icon a {
+    text-decoration: none;
+    color: #000;
+}
+.hero-container .cook{
+position: absolute;
+left: 50px;
+bottom: 50px;
+display: flex;
+gap: 10px;
+
+}
+
+ .hero-container .cook span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+   
+}
+.hero-container .cook p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+/* hero-recpies */
+.hero-recpies{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.hero-recpies .left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 40%;
+
+}
+
+.hero-recpies .left .Ingredients{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    border-radius: 15px;
+    width: 80%;
+
+}
+ .Ingredients-image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    width:100%;
+
+ }
+
+ .Ingredients-image img{
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width:130px;
+
+    display: flex;
+    
+    margin-right: 20px;
+}
+
+
+.hero-recpies .right{
+   width: 60%;
+   width: fit-content;
+
+}
+
+.hero-recpies .right .text{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 30px;
+    
+   
+}
+.hero-recpies .right .text span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: -30px;
+    left: -30px;
+   
+}
+.hero-recpies .right .text p{
+    line-height: 2;
+ margin-left: 10px;
+
+}
+.footer-contaner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:5rem;
+    width: 100%;
+    background-color: #EDE9E9;
+}
+.help-links ul li ,.media-links ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 15px;
+    
+}
+.help-links ul li{
+    padding: 1.5rem;
+}
+.media-links ul li{
+    padding: 0.2rem;
+}
+.copyright{
+    font-size: 15px;
+}
+
+
+@media (max-width:600px) {
+    .hero-recpies{
+    flex-direction: column;}
+    .hero-recpies .left .Ingredients-image{
+        width:100%;
+    }
+
+
+    .hero-recpies .left{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width:100%;
+    
+    }
+    
+    .hero-recpies .left .Ingredients{
+        width:100%;
+    
+    }
+    .right h2{
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) {
+    .Recipes-container{
+        width: 750px;
+    }
+    .hero-recpies .left .Ingredients-image img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+}
+.hero-recpies .left .Ingredients{
+    width: 100%;}
+
+@media (min-width:992px) {
+    .Recipes-container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px) {
+    .Recipes-container{
+        width: 1170px;
+    }
+}
